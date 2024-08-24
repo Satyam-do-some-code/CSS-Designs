@@ -1,0 +1,1 @@
+console.log("This is testing part of the js file");
