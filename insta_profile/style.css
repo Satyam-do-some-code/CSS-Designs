@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    font-family: "Roboto";
+}
+body{
+    background-color: rgb(114, 18, 60);
+}
+
+#main{
+    height: 45rem;
+    width: 22.4rem;
+    background-color: black;
+    margin-left: 38rem;
+    margin-top: 1rem;
+    border-radius: 1.8rem;
+}
+
+/*  Notch*/
+.head_parent{
+    height: 1.5rem;
+    width: 22.4rem;
+    /* background-color: rgba(255, 0, 0, 0.271); */
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 0.5rem;
+}
+#time{
+    color: #ffff;
+    /* background-color: #0000; */
+    position: relative;
+    font-size: 12px;
+    right: 6.8rem;
+}
+.fa-wifi{
+    position: relative;
+    left: 6rem;
+    margin-top: 0.5rem;
+}
+.fa-signal{
+    position: relative;
+    left: 6.4rem;
+    margin-top: 0.5rem;
+}
+.fa-battery-full{
+    position: relative;
+    left: 6.7rem;
+    margin-bottom: 0.5rem;
+}
+.battery_perc{
+    color: #ffff;
+    position: relative;
+    left: 6.9rem;
+    font-size: 12px;
+    margin-top: 0.1rem;
+}
+
+/* UserName */
+.username{
+    /* background-color: rgba(255, 0, 0, 0.271); */
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+     margin-top: 2rem;
+}
+.name{
+    color: #ffff;
+    font-size: 1.3rem;
+    position: relative;
+    right: 4.9rem;
+    font-weight: 500;
+}
+.arrow{
+    color: #ffff;
+    font-size: 0.8rem;
+    font-weight: 400;
+    position: relative;
+    margin-top: 0.2rem;
+    right: 4.5rem;
+}
+#plus_border{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    border: 2.3px solid #fff;
+    color: #ffff;
+    margin-top: 0.2rem;
+    position: relative;
+    left: 3.2rem;
+}
+#plus{
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 0.3rem;
+}
+.fa-bars{
+    margin-top: 0.8rem;
+    position: relative;
+    left: 4.5rem;
+}
+
+
+/* Profile section */
+.profile{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 0, 0, 0.271);
+    margin-top: 4rem;
+}
+.profile{
+    color: #fff;
+}
+#note_section{
+    height: 2rem;
+    width: 4rem;
+    background-color: rgb(78, 75, 75);
+}
+#note_section{
+    position: relative;
+    bottom: 7rem;
+}
+.image>img{
+    width: 4.9vw;
+    border-radius: 3rem;
+}
+.image{
+    position: relative;
+    left: 1.1rem;
+}
+#plus_icon{
+    height: 1rem;
+    width: 1rem;
+    background-color: rgb(60, 144, 234);
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 3.6rem;
+    left: 3.7rem;
+}
+#plus_icon>span{
+    position: relative;
+    bottom: 0.1rem;
+}
+#post{
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+    top: 0.2rem;
+    text-align: center;
+    left: 2rem;
+    background-color: green;
+}
+#post>p{
+    position: relative;
+    left: 1.3rem;
+    font-size: 1.1rem;
+}
+#followers{
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+    top: 0.2rem;
+    left: 3rem;
+    background-color: green;
+}
+#followers>p{
+    position: relative;
+    left: 1.3rem;
+    font-size: 1.1rem;
+}
+#following{
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+    top: 0.2rem;
+    left: 4.2rem;
+    background-color: green;
+}
+#following>p{
+    position: relative;
+    left: 1.3rem;
+    font-size: 1.1rem;
+}
